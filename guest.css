@@ -1,0 +1,59 @@
+
+
+.ofancy{color: darkorange}
+.bfancy{color:cornflowerblue}
+
+.header{width:auto;
+    height: 190;
+    overflow: hidden;
+    padding: 20px 10px;
+    border: 10px solid orange;}
+
+.logo{position: absolute;
+    left: 30px;
+    border-radius: 100%;
+    height:auto;}
+
+/* Add a black background color to the top navigation */
+.topnav {float: right;
+  background-color: white;
+  overflow: hidden;}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  font-family: cursive;    
+  float: right;
+  color: deeppink;
+  text-align: center;
+  padding: 12px 18px;
+  text-decoration:none;
+  font-size: 20px;}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: orange;
+  border-radius:12%;    
+  color: black;}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  border-radius:12%;    
+  background-color: pink;
+  color: black;}
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+
+.sticky {padding-top: 60px;
+  position: fixed;
+  top: 0;
+  width: 100%;}
+
+article{position: absolute;
+        width: auto;
+        top: auto;}
+
+footer{position: absolute;
+    bottom:0%;
+    width: 99%;    
+    color: white;
+    height:100px;
+    background-color: #333;}
